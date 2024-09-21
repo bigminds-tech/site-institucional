@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "category": "Desenvolvimento de Web e Mobile",
+        "img": "/assets/img/home-3/home3-blog-01.png",
+        "date": "Mai 20, 2023",
+        "count_comment": 5,
+        "title": "Transformação Digital e Desenvolvimento de Software nas Empresas",
+        "link": "/post1",
+        "tags": [
+            "website",
+            "mobile"
+        ],
+        "author": "BigMinds Tech",
+        "image": "/public/assets/img/blog/blog-dt-01.png"
+    },
+    {
+        "id": "2",
+        "category": "Cloud Solutions",
+        "img": "/assets/img/home-3/home3-blog-02.png",
+        "date": "Jun 20, 2023",
+        "count_comment": 5,
+        "title": "Como Escolher o Provedor de Cloud Ideal para sua Empresa",
+        "link": "/post2",
+        "tags": [
+            "website",
+            "mobile"
+        ],
+        "author": "BigMinds Tech",
+        "image": "/public/assets/img/blog/blog-dt-02.png"
+    },
+    {
+        "id": "3",
+        "category": "Desenvolvimento de Software",
+        "img": "/assets/img/home-3/home3-blog-03.png",
+        "date": "Jul 20, 2023",
+        "count_comment": 5,
+        "title": "O Papel da Segurança no Desenvolvimento de Software Empresarial",
+        "link": "/post3",
+        "tags": [
+            "website",
+            "mobile"
+        ],
+        "author": "BigMinds Tech",
+        "image": "/public/assets/img/blog/blog-dt-03.png"
+    }
+]
