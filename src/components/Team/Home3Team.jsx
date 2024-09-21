@@ -165,7 +165,7 @@ function Home3Team() {
               </div>
               <div className="experts-content">
                 <h4>Wesley Eufrasio</h4>
-                <span>Co-Founder, CTO & Software Engeenier</span>
+                <span>Co-Founder, CTO & Software Engineer</span>
               </div>
             </div>
           </div>
