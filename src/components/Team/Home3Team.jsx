@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Home3Team() {
+function Home3Team({ showTitle = true, showDescription = true }) {
   return (
     <div className="home3-team-area sec-mar">
       <div className="container">
@@ -11,13 +11,15 @@ function Home3Team() {
         >
           <div className="col-lg-12 d-flex justify-content-center">
             <div className="section-title-3 text-center">
-              <h2>Nossa Equipe</h2>
-              <p>
-                Nossa equipe é formada por profissionais apaixonados e
-                especializados, que colaboram para criar soluções inovadoras.
-                Com foco em resultados e excelência, estamos prontos para
-                atender às suas necessidades.
-              </p>
+              {showTitle && <h2>Nossa Equipe</h2>}
+              {showDescription && (
+                <p>
+                  Nossa equipe é formada por profissionais apaixonados e
+                  especializados, que colaboram para criar soluções inovadoras.
+                  Com foco em resultados e excelência, estamos prontos para
+                  atender às suas necessidades.
+                </p>
+              )}
             </div>
           </div>
         </div>
@@ -67,7 +69,10 @@ function Home3Team() {
               </div>
               <div className="experts-content">
                 <h4>Luís Varas</h4>
-                <span>Co-Founder, CEO & Data Science</span>
+                <span>
+                  Co-Founder,
+                  <br /> CEO & Data Science
+                </span>
               </div>
             </div>
           </div>
@@ -116,7 +121,10 @@ function Home3Team() {
               </div>
               <div className="experts-content">
                 <h4>Ailton Macedo</h4>
-                <span>Co-Founder, COO & Data Analytics</span>
+                <span>
+                  Co-Founder, <br />
+                  COO Software Engineer & Data Analytics
+                </span>
               </div>
             </div>
           </div>
@@ -165,7 +173,10 @@ function Home3Team() {
               </div>
               <div className="experts-content">
                 <h4>Wesley Eufrasio</h4>
-                <span>Co-Founder, CTO & Software Engineer</span>
+                <span>
+                  Co-Founder,
+                  <br /> CTO & Software Engineer
+                </span>
               </div>
             </div>
           </div>
@@ -214,7 +225,10 @@ function Home3Team() {
               </div>
               <div className="experts-content">
                 <h4>Renata Ribeiro</h4>
-                <span>Head of Product and Project Manager</span>
+                <span>
+                  Co-Founder, <br />
+                  Head of Product and Project Manager
+                </span>
               </div>
             </div>
           </div>
