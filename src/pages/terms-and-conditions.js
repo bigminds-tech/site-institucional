@@ -30,9 +30,8 @@ function BlogDetailsPage() {
                 </h3>
                 <p>
                   <span>
-                    Ao acessar ao site{" "}
-                    <a href="https://www.bigminds.tech/">BigMinds Tech</a>,
-                    concorda em cumprir estes termos de serviço, todas as leis e
+                    Ao acessar ao site <a href="#">BigMinds Tech</a>, concorda
+                    em cumprir estes termos de serviço, todas as leis e
                     regulamentos aplicáveis ​​e concorda que é responsável pelo
                     cumprimento de todas as leis locais aplicáveis. Se você não
                     concordar com algum desses termos, está proibido de usar ou
