@@ -109,7 +109,7 @@ function BlogDetailsPage() {
                       <li>
                         <span>
                           Para mais informações sobre o Google AdSense, consulte
-                          as FAQs oficiais sobre privacidade do Google AdSense.
+                          as FAQ oficiais sobre privacidade do Google AdSense.
                         </span>
                       </li>
                       <li>

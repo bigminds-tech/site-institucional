@@ -374,7 +374,7 @@ function Header3() {
             </li>
             <li className={`${currentRoute === "/faq" ? "active" : ""}`}>
               <Link legacyBehavior href="/faq">
-                <a>Faq</a>
+                <a>FAQ</a>
               </Link>
             </li>
             <li className={`${currentRoute === "/team" ? "active" : ""}`}>
@@ -557,7 +557,7 @@ function Header3() {
                 <li>
                   <Link legacyBehavior href="/faq">
                     <a className={currentRoute === "/faq" ? "active" : ""}>
-                      FAQs
+                      FAQ
                     </a>
                   </Link>
                 </li>

@@ -5,11 +5,7 @@ import React from "react";
 function Faqpage() {
   return (
     <Layout>
-      <Breadcrumb
-        pageList="FAQs"
-        title="Perguntas frequentes?"
-        pageName="FAQS"
-      />
+      <Breadcrumb pageList="FAQ" title="Perguntas frequentes?" pageName="FAQ" />
       <div className="faq-page sec-mar">
         <div className="container">
           <div className="row gy-5 justify-content-lg-between justify-content-center">

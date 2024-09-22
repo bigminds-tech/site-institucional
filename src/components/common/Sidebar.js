@@ -298,7 +298,7 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                 </li>
                 <li>
                   <Link legacyBehavior href="/faq">
-                    <a>FAQs</a>
+                    <a>FAQ</a>
                   </Link>
                 </li>
                 <li>

@@ -215,7 +215,7 @@ function Footer3() {
               <div className="menu-container">
                 <ul>
                   <li>
-                    <a href="faq">Faq</a>
+                    <a href="faq">FAQ</a>
                   </li>
                   <li>
                     <a href="blog">Blog</a>
