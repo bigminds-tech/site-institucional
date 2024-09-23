@@ -1,6 +1,7 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
 import Head from "next/head";
+import React, { useState } from "react";
 
 function Contactpage() {
   const [result, setResult] = useState("");
@@ -34,7 +35,6 @@ function Contactpage() {
     }
   };
 
-  
   return (
     <Layout>
       <Head>
