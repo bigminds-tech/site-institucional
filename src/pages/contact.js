@@ -1,6 +1,6 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
-import { useState } from 'react';
+import Head from "next/head";
 
 function Contactpage() {
   const [result, setResult] = useState("");
@@ -37,6 +37,21 @@ function Contactpage() {
   
   return (
     <Layout>
+      <Head>
+        <title>Contato | Transformamos Ideias em Inovação.</title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Entre em contato com a BigMinds Tech! Estamos prontos para 
+          ajudar com suas dúvidas e necessidades em tecnologia. Preencha nosso 
+          formulário ou ligue para nós."
+        />
+        <meta
+          name="keywords"
+          content="contato, BigMinds Tech, suporte, tecnologia, dúvidas, 
+          formulário de contato, atendimento ao cliente, serviços de tecnologia"
+        ></meta>
+      </Head>
       <Breadcrumb pageList="Contato" title="Fale Conosco" pageName="CONTATO" />
       <div className="contact-page-wrap sec-mar">
         <div className="container">

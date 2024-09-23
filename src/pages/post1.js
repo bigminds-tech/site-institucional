@@ -2,11 +2,32 @@ import BlogBanner from "../components/blog/BlogBanner";
 import Breadcrumb from "../components/common/Breadcrumb";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
-import React from "react";
+import Head from "next/head";
 
 function BlogDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>Post | Transformamos Ideias em Inovação.</title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Na BigMinds Tech, somos apaixonados por inovação e tecnologia. 
+          Nossa missão é transformar ideias em soluções digitais que impulsionam 
+          o sucesso de nossos clientes. Com uma equipe de especialistas em 
+          desenvolvimento de software, design e estratégias digitais, 
+          oferecemos serviços sob medida para atender às suas necessidades. 
+          Junte-se a nós na jornada para moldar o futuro da tecnologia e 
+          descobrir como podemos ajudar a sua empresa a crescer e se destacar 
+          no mercado."
+        />
+        <meta
+          name="keywords"
+          content="Desenvolvimento Web & Mobile, Soluções Cloud, Solução de 
+          Pagamento via QR Code, Solução Integrada de Gestão de Dados, 
+          Desenvolvimento de Software, Automação de Processos,UX/UI"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="POST "
         title="Explorando - Blog BigMinds Tech"

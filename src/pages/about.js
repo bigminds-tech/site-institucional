@@ -8,10 +8,29 @@ import Feature4 from "../components/features/Feature4";
 import Layout from "../components/layout/Layout";
 import Partner4 from "../components/partner/Partner4";
 import Testimonial3 from "../components/testimonial/Testimonial3";
+import Head from "next/head";
 
 function AboutPage() {
   return (
     <Layout>
+      <Head>
+        <title>Sobre a BigMinds Tech | Transformamos Ideias em Inovação.</title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Na BigMinds Tech, somos apaixonados por inovação e tecnologia. 
+          Nossa missão é transformar ideias em soluções digitais que impulsionam 
+          o sucesso de nossos clientes. Com uma equipe de especialistas em 
+          desenvolvimento de software, design e estratégias digitais, 
+          oferecemos serviços sob medida para atender às suas necessidades."
+        />
+        <meta
+          name="keywords"
+          content="Desenvolvimento Web & Mobile, Soluções Cloud, Solução de 
+          Pagamento via QR Code, Solução Integrada de Gestão de Dados, 
+          Desenvolvimento de Software, Automação de Processos,UX/UI"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Sobre"
         title="Conheça a BigMinds Tech"

@@ -1,11 +1,28 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
-import React from "react";
+import Head from "next/head";
 
 function ServiceDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>UX/UI | Transformamos Ideias em Inovação.</title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Nosso serviço de UX/UI Design é projetado para transformar a 
+          interação do usuário com seu produto digital em uma experiência intuitiva, 
+          agradável e eficaz. Combinamos pesquisa, criatividade e tecnologia para 
+          desenvolver interfaces que não apenas atraem visualmente, mas também 
+          proporcionam uma navegação fluida e acessível."
+        />
+        <meta
+          name="keywords"
+          content="Pesquisa de Usuário, Wireframes e Protótipos, Design Visual 
+          Atraente, Testes de Usabilidade, Responsividade"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Detalhes do Serviço"
         title="UX/UI"

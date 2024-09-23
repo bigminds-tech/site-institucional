@@ -1,11 +1,33 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
-import React from "react";
+import Head from "next/head";
 
 function ServiceDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>
+          Desenvolvimento de Software | Transformamos Ideias em Inovação.
+        </title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Oferecemos serviços de desenvolvimento de software sob medida, 
+          focados em resolver desafios específicos do seu negócio. Nossos especialistas 
+          trabalham desde a concepção até a implementação, criando soluções que aumentam 
+          a eficiência operacional e potencializam o crescimento da sua empresa, 
+          tudo com a mais alta qualidade e segurança."
+        />
+        <meta
+          name="keywords"
+          content="Sistemas de Gestão Empresarial (ERP), Aplicativos Móveis, 
+          Software de Automação de Marketing, Intranets, Software de Análise de 
+          Dados, Sistemas de Gestão de Relacionamento com o Cliente (CRM), Sistemas 
+          de Pagamentos, Sistemas de Monitoramento e Controle, Soluções de Comércio 
+          Eletrônico"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Detalhes do Serviço"
         title="Desenvolvimento de Software"

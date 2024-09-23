@@ -2,11 +2,25 @@ import BlogBanner from "../components/blog/BlogBanner";
 import Breadcrumb from "../components/common/Breadcrumb";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
-import React from "react";
+import Head from "next/head";
 
 function BlogDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>Termos e Condições | Transformamos Ideias em Inovação.</title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Leia nossos Termos de Uso para entender as condições que regem 
+          o uso de nossos serviços. Ao acessar nosso site, você concorda com estas diretrizes."
+        />
+        <meta
+          name="keywords"
+          content="termos de uso, condições de serviço, política de uso, direitos 
+          e responsabilidades, uso do site"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Detalhes"
         title="Termos e Condições"
@@ -30,9 +44,8 @@ function BlogDetailsPage() {
                 </h3>
                 <p>
                   <span>
-                    Ao acessar ao site{" "}
-                    <a href="https://www.bigminds.tech/">BigMinds Tech</a>,
-                    concorda em cumprir estes termos de serviço, todas as leis e
+                    Ao acessar ao site <a href="#">BigMinds Tech</a>, concorda
+                    em cumprir estes termos de serviço, todas as leis e
                     regulamentos aplicáveis ​​e concorda que é responsável pelo
                     cumprimento de todas as leis locais aplicáveis. Se você não
                     concordar com algum desses termos, está proibido de usar ou

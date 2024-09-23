@@ -1,11 +1,29 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
-import React from "react";
+import Head from "next/head";
 
 function ServicePage() {
   return (
     <Layout>
+      <Head>
+        <title>Serviços | Transformamos Ideias em Inovação.</title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Explore os serviços da BigMinds Tech: Desenvolvimento Web e 
+          Mobile, Soluções Cloud, Pagamento via QR Code, Gestão de Dados Integrada, 
+          Automação de Processos, UX/UI, Consultoria em Tecnologia e Inovação. 
+          Transforme seu negócio com nossas soluções tecnológicas personalizadas."
+        />
+        <meta
+          name="keywords"
+          content="Desenvolvimento Web & Mobile, Soluções Cloud, Solução de 
+          Pagamento via QR Code, Solução Integrada de Gestão de Dados, 
+          Desenvolvimento de Software, Automação de Processos, UX/UI, Soluções 
+          Tecnológicas, Consultoria em Tecnologia, Inovação"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Serviços"
         title="O que Fazemos por sua Empresa"

@@ -49,7 +49,7 @@ function Footer3() {
       </div>
       <div className="container">
         <div className="row g-lg-4 gy-5">
-          <div className="col-lg-4 col-sm-6 d-flex">
+          <div className="col-lg-4 col-sm-6 d-flex justify-align-content-sm-center">
             <div className="footer-widget">
               <div className="footer-contact mb-40">
                 <h4>
@@ -103,7 +103,7 @@ function Footer3() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 d-flex justify-content-sm-start">
+          <div className="col-lg-3 col-sm-6 d-flex justify-align-content-sm-center">
             <div className="footer-widget">
               <div className="widget-title">
                 <h4>Empresa</h4>
@@ -155,7 +155,7 @@ function Footer3() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 d-flex justify-content-sm-start">
+          <div className="col-lg-3 col-sm-6 d-flex justify-align-content-sm-center">
             <div className="footer-widget">
               <div className="widget-title">
                 <h4>Nossas Soluções</h4>
@@ -207,7 +207,7 @@ function Footer3() {
               </div>
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6 d-flex justify-content-sm-start">
+          <div className="col-lg-2 col-sm-6 d-flex justify-align-content-sm-center">
             <div className="footer-widget">
               <div className="widget-title">
                 <h4>Recursos</h4>
@@ -215,7 +215,7 @@ function Footer3() {
               <div className="menu-container">
                 <ul>
                   <li>
-                    <a href="faq">Faq</a>
+                    <a href="faq">FAQ</a>
                   </li>
                   <li>
                     <a href="blog">Blog</a>

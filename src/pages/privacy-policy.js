@@ -2,11 +2,28 @@ import BlogBanner from "../components/blog/BlogBanner";
 import Breadcrumb from "../components/common/Breadcrumb";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
-import React from "react";
+import Head from "next/head";
 
 function BlogDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>
+          Politica de Provacidade | Transformamos Ideias em Inovação.
+        </title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Conheça nossa Política de Privacidade. Descubra como coletamos, 
+          usamos e protegemos suas informações pessoais. Sua privacidade é nossa 
+          prioridade."
+        />
+        <meta
+          name="keywords"
+          content="política de privacidade, proteção de dados, coleta de informações, 
+          uso de dados pessoais, segurança da informação"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Detalhes"
         title="Politica de Privacidade"
@@ -32,9 +49,9 @@ function BlogDetailsPage() {
                   <span>
                     A sua privacidade é importante para nós. É política do
                     BigMinds Tech respeitar a sua privacidade em relação a
-                    qualquer informação sua que possamos coletar no site{" "}
-                    <a href="https://www.bigminds.tech/">BigMinds Tech</a>, e
-                    outros sites que possuímos e operamos.
+                    qualquer informação sua que possamos coletar no site
+                    <a href="#"> BigMinds Tech</a>, e outros sites que possuímos
+                    e operamos.
                   </span>
                 </p>
                 <p>
@@ -69,13 +86,7 @@ function BlogDetailsPage() {
                     sobre o conteúdo e práticas desses sites e não podemos
                     aceitar responsabilidade por suas respectivas&nbsp;
                   </span>
-                  <a
-                    href="https://politicaprivacidade.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    políticas de privacidade
-                  </a>
+                  políticas de privacidade
                   <span>.</span>
                 </p>
                 <p>
@@ -105,13 +116,16 @@ function BlogDetailsPage() {
                           número de vezes que um determinado anúncio é exibido
                           para você.
                         </span>
+                        <br />
                       </li>
+                      <br />
                       <li>
                         <span>
                           Para mais informações sobre o Google AdSense, consulte
-                          as FAQs oficiais sobre privacidade do Google AdSense.
+                          as FAQ oficiais sobre privacidade do Google AdSense.
                         </span>
                       </li>
+                      <br />
                       <li>
                         <span>
                           Utilizamos anúncios para compensar os custos de
@@ -124,6 +138,7 @@ function BlogDetailsPage() {
                           semelhantes que possam ser do seu interesse.
                         </span>
                       </li>
+                      <br />
                       <li>
                         <span>
                           Vários parceiros anunciam em nosso nome e os cookies
@@ -162,10 +177,7 @@ function BlogDetailsPage() {
                   <li>
                     <span>
                       B - Não difundir propaganda ou conteúdo de natureza
-                      racista, xenofóbica,
-                    </span>
-                    <span>
-                      <a href="https://166bet.br.com">166bet</a>
+                      racista, xenofóbica, bets
                     </span>
                     <span>
                       ou azar, qualquer tipo de pornografia ilegal, de apologia

@@ -1,11 +1,31 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
-import React from "react";
+import Head from "next/head";
 
 function ServiceDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>
+          Desenvolvimento Web e Mobile | Transformamos Ideias em Inovação.
+        </title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Nosso serviço de Desenvolvimento Web & Mobile proporciona 
+          soluções personalizadas para a criação de sites e aplicações que atendem 
+          às suas necessidades específicas. Utilizamos as mais recentes tecnologias 
+          para garantir que sua presença online seja não apenas visualmente 
+          atraente, mas também funcional e responsiva em todos os dispositivos, 
+          melhorando a experiência do usuário."
+        />
+        <meta
+          name="keywords"
+          content="Sites Institucionais, E-commerce, Aplicativos Web Personalizados, 
+          Landing Pages, Portais de Clientes, Blogs e Plataformas de Conteúdo"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Detalhes do Serviço"
         title="Desenvolvimento Web & Mobile"
