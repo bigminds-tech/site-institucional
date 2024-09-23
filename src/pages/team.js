@@ -1,7 +1,7 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Home3Team from "@/components/Team/Home3Team";
 import Layout from "@/components/layout/Layout";
-import React from "react";
+import Head from "next/head";
 
 function Team() {
   return (
