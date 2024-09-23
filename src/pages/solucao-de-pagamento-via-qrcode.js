@@ -6,6 +6,26 @@ import React from "react";
 function ServiceDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>
+          Solução de Pagamentos Via QRCode | Transformamos Ideias em Inovação.
+        </title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Nossa solução de Pagamento via QR Code oferece uma maneira 
+          rápida e segura para empresas e consumidores realizarem transações 
+          financeiras. Com tecnologia de ponta, este sistema facilita pagamentos 
+          instantâneos, melhorando a experiência do usuário e aumentando a 
+          eficiência nas operações."
+        />
+        <meta
+          name="keywords"
+          content="Aplicativo de Pagamento Móvel com QR Code, Sistema de Cobrança 
+          por QR Code, Sistema de Fidelidade com Pagamento QR Code, PDV Integrado 
+          com solução de Pagamento com QR Code"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Detalhes do Serviço"
         title="Solução de Pagamento via QR Code"

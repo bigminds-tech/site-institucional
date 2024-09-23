@@ -6,6 +6,30 @@ import React from "react";
 function ServiceDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>
+          Solução Integrada de Gestão de Dados | Transformamos Ideias em
+          Inovação.
+        </title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Nossa solução integra Arquitetura, Engenharia e Análise de Dados 
+          para otimizar o valor das informações da sua empresa. Oferecemos 
+          estruturas personalizadas para organização de dados, pipelines eficientes 
+          para coleta e armazenamento, e ferramentas avançadas que geram insights 
+          estratégicos. Com essa abordagem, sua empresa transforma dados em ativos 
+          estratégicos, impulsionando crescimento e inovação."
+        />
+        <meta
+          name="keywords"
+          content="Plataforma de Gestão de Dados Empresariais, Ferramenta de 
+          Visualização de Dados, Sistema de ETL (Extração, Transformação e Carga),
+          Dashboards Interativos para Análise de Desempenho, Data Lake para 
+          Armazenamento de Dados Brutos, API para Integração de Dados, Soluções 
+          de Data Warehousing"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Detalhes do Serviço"
         title="Solução Integrada de Gestão de Dados"

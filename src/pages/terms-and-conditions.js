@@ -7,6 +7,20 @@ import React from "react";
 function BlogDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>Termos e Condições | Transformamos Ideias em Inovação.</title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Leia nossos Termos de Uso para entender as condições que regem 
+          o uso de nossos serviços. Ao acessar nosso site, você concorda com estas diretrizes."
+        />
+        <meta
+          name="keywords"
+          content="termos de uso, condições de serviço, política de uso, direitos 
+          e responsabilidades, uso do site"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Detalhes"
         title="Termos e Condições"

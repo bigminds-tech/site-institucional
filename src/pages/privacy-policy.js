@@ -7,6 +7,23 @@ import React from "react";
 function BlogDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>
+          Politica de Provacidade | Transformamos Ideias em Inovação.
+        </title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Conheça nossa Política de Privacidade. Descubra como coletamos, 
+          usamos e protegemos suas informações pessoais. Sua privacidade é nossa 
+          prioridade."
+        />
+        <meta
+          name="keywords"
+          content="política de privacidade, proteção de dados, coleta de informações, 
+          uso de dados pessoais, segurança da informação"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Detalhes"
         title="Politica de Privacidade"

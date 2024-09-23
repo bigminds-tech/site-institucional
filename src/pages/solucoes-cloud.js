@@ -6,6 +6,24 @@ import React from "react";
 function ServiceDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>Soluções Cloud | Transformamos Ideias em Inovação.</title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Com nossas soluções em nuvem, sua empresa pode desfrutar de 
+          infraestrutura escalável e segura, sem a necessidade de investimentos 
+          pesados em hardware. Nossos serviços oferecem flexibilidade e 
+          acessibilidade, permitindo que você acesse dados e aplicações de 
+          qualquer lugar, otimizando processos e reduzindo custos operacionais."
+        />
+        <meta
+          name="keywords"
+          content="Armazenamento em Nuvem, Software como Serviço (SaaS), Backup 
+          e Recuperação em Nuvem, Serviços de Inteligência Artificial em Nuvem, 
+          Gerenciamento de Dados, Segurança em Nuvem"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Detalhes do Serviço"
         title="Soluções Cloud"

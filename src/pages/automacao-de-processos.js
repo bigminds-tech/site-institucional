@@ -6,6 +6,26 @@ import React from "react";
 function ServiceDetailsPage() {
   return (
     <Layout>
+      <Head>
+        <title>
+          Automação de Processos | Transformamos Ideias em Inovação.
+        </title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Oferecemos soluções de automação de processos que aumentam a 
+          eficiência e reduzem custos operacionais. Nossa abordagem personalizada 
+          ajuda empresas de todos os tamanhos a otimizar suas operações diárias, 
+          permitindo que você concentre seus esforços no crescimento do seu negócio."
+        />
+        <meta
+          name="keywords"
+          content="Automação de Fluxo de Trabalho, Integração de Sistemas, 
+          Automação de Marketing, Automação de Atendimento ao Cliente, Automação 
+          de Relatórios e Análises, Automação de Vendas, Finanças e Contabilidade, 
+          Automação de Supply Chain, Automação de Documentos"
+        ></meta>
+      </Head>
       <Breadcrumb
         pageList="Detalhes do Serviço"
         title="Automação de Processos"
