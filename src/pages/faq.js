@@ -5,6 +5,22 @@ import Head from "next/head";
 function Faqpage() {
   return (
     <Layout>
+      <Head>
+        <title>FAQ | Transformamos Ideias em Inovação.</title>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Encontre respostas para as perguntas mais frequentes sobre 
+          os serviços da BigMinds Tech. Esclareça suas dúvidas sobre Desenvolvimento 
+          Web, Soluções Cloud, Pagamento via QR Code e muito mais."
+        />
+        <meta
+          name="keywords"
+          content="FAQ, perguntas frequentes, BigMinds Tech, desenvolvimento web, 
+          soluções cloud, pagamento via QR Code, automação de processos, 
+          consultoria em tecnologia"
+        ></meta>
+      </Head>
       <Breadcrumb pageList="FAQ" title="Perguntas frequentes?" pageName="FAQ" />
       <div className="faq-page sec-mar">
         <div className="container">
