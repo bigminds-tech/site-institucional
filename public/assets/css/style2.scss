@@ -1777,7 +1777,17 @@ video {
   background-repeat: no-repeat;
 
   position: relative;
-  min-height: 100vh;
+  @media (max-width: 1920px) {
+    min-height: 85vh;
+  }
+  @media (max-width: 767px) {
+    min-height: 75vh;
+  }
+  @media (max-width: 450px) {
+    min-height: 70vh;
+  }
+
+  min-height: 85vh;
   z-index: 1;
   &::before {
     content: "";
@@ -1979,7 +1989,7 @@ video {
       }
     }
     .banner-image {
-      border-radius: 50%;
+      border-radius: 10%;
       position: relative;
       max-width: 624px;
       width: 100%;
@@ -2009,10 +2019,10 @@ video {
         top: 0;
         width: 100%;
         height: 100%;
-        border-radius: 50%;
+        border-radius: 10%;
       }
       img {
-        border-radius: 50%;
+        border-radius: 10%;
       }
     }
     .banner-video-area {
@@ -4611,8 +4621,11 @@ video {
 }
 
 .home3-partner-area {
+  .col-lg-9 {
+    margin-top: 10px;
+  }
   background: #1b1f23;
-  padding: 30px 65px;
+  padding: 30px 65px 15px 65px;
   @include xxl-down-device() {
     padding: 40px 35px;
   }
@@ -4623,7 +4636,7 @@ video {
     position: relative;
     &::after {
       content: "";
-      height: 110px;
+      height: 55px;
       width: 1px;
       background-color: var(--white-color);
       opacity: 0.1;
@@ -4641,6 +4654,10 @@ video {
         display: none;
         visibility: hidden;
       }
+    }
+    @media (max-width: 992px) {
+      display: flex;
+      justify-content: space-around;
     }
     h3 {
       font-family: var(--font-saira);
@@ -7998,7 +8015,6 @@ footer {
         letter-spacing: 0.03em;
         color: #e4e4e4;
         margin-bottom: 25px;
-
         span {
           color: var(--theme-color);
           font-size: 26px;
