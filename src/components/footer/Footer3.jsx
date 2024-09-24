@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 
 function Footer3() {
   return (
@@ -141,7 +140,7 @@ function Footer3() {
                       <a>Politica de Privacidade</a>
                     </Link>
                   </li>
-                  <li>
+                  {/*<li>
                     <Link legacyBehavior href="/suport">
                       <a>Suporte</a>
                     </Link>
@@ -150,7 +149,7 @@ function Footer3() {
                     <Link legacyBehavior href="/work-with-us">
                       <a>Trabalhe Conosco</a>
                     </Link>
-                  </li>
+                  </li>*/}
                 </ul>
               </div>
             </div>
