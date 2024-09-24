@@ -1,6 +1,7 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
 import Head from "next/head";
+import { useState } from "react";
 
 function Faqpage() {
   const [result, setResult] = useState("");
@@ -165,7 +166,7 @@ function Faqpage() {
                   <h5>TEM ALGUMA PERGUNTA?</h5>
                 </div>
                 <div className="contact-form">
-                <form onSubmit={onSubmit}>
+                  <form onSubmit={onSubmit}>
                     <div className="row">
                       <div className="col-md-6 mb-20">
                         <div className="form-inner">
