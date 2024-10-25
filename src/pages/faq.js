@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
 import Head from "next/head";
@@ -34,7 +35,6 @@ function Faqpage() {
       setResult("Submission failed: " + error.message);
     }
   };
-
 
   return (
     <Layout>

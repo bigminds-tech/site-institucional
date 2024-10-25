@@ -87,7 +87,7 @@ function About3() {
                   alt=""
                 />
               </div>
-              <div
+              {/* <div
                 className="about-exprience d-flex align-items-center justify-content-center wow animate fadeInUp"
                 data-wow-delay="300ms"
                 data-wow-duration="1500ms"
@@ -102,7 +102,7 @@ function About3() {
                     <span>Anos</span>
                   </h2>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

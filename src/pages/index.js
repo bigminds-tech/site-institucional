@@ -39,7 +39,7 @@ export default function Home() {
       {/* <PricingPlan3 /> */}
       <Home3Contact />
       <Home3Team />
-      <Home3Blog />
+      {/* <Home3Blog /> */}
       <Footer3 />
     </>
   );
