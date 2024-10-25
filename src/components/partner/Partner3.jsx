@@ -14,7 +14,7 @@ function Partner3() {
             <div className="partner-wrapper">
               <Marquee className="marquee_text" autoFill={true}>
                 <img src="assets/img/home-3/tools/activecampaign.svg" alt="" />
-                <img src="assets/img/home-3/tools/adalo.svg" alt="" />
+                {/* <img src="assets/img/home-3/tools/adalo.svg" alt="" /> */}
                 <img src="assets/img/home-3/tools/airflow.svg" alt="" />
                 <img src="assets/img/home-3/tools/airtable.svg" alt="" />
                 <img src="assets/img/home-3/tools/android.svg" alt="" />

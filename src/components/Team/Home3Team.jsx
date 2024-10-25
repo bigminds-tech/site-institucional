@@ -25,7 +25,7 @@ function Home3Team({ showTitle = true, showDescription = true }) {
         </div>
         <div className="row">
           <div
-            className="col-lg-3 col-sm-6 experts wow animate fadeInUp"
+            className="col-lg-4 col-sm-6 experts wow animate fadeInUp"
             data-wow-delay="200ms"
             data-wow-duration="1500ms"
           >
@@ -77,7 +77,7 @@ function Home3Team({ showTitle = true, showDescription = true }) {
             </div>
           </div>
           <div
-            className="col-lg-3 col-sm-6 experts wow animate fadeInUp"
+            className="col-lg-4 col-sm-6 experts wow animate fadeInUp"
             data-wow-delay="300ms"
             data-wow-duration="1500ms"
           >
@@ -123,65 +123,14 @@ function Home3Team({ showTitle = true, showDescription = true }) {
                 <h4>Ailton Macedo</h4>
                 <span>
                   Co-Founder, <br />
-                  COO Software Engineer & Data Analytics
+                  CTO Software Engineer & Data Analytics
                 </span>
               </div>
             </div>
           </div>
+
           <div
-            className="col-lg-3 col-sm-6 experts wow animate fadeInUp"
-            data-wow-delay="400ms"
-            data-wow-duration="1500ms"
-          >
-            <div className="experts-card magnetic-item">
-              <div className="experts-img">
-                <img
-                  className="img-fluid"
-                  src="assets/img/home-4/experts-03.png"
-                  alt=""
-                />
-                <div className="expert-social">
-                  <ul>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/bigminds.tech/"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-instagram" />
-                      </a>
-                    </li>
-                    {/* <li>
-                      <a href="https://www.pinterest.com/">
-                        <i className="bx bxl-pinterest-alt" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/">
-                        <i className="bx bxl-twitter" />
-                      </a>
-                    </li> */}
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/company/bigmindstech/"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-linkedin" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="experts-content">
-                <h4>Wesley Eufrasio</h4>
-                <span>
-                  Co-Founder,
-                  <br /> CTO & Software Engineer
-                </span>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-sm-6 experts wow animate fadeInUp"
+            className="col-lg-4 col-sm-6 experts wow animate fadeInUp"
             data-wow-delay="500ms"
             data-wow-duration="1500ms"
           >

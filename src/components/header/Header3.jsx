@@ -246,12 +246,12 @@ function Header3() {
                 <a>Principal</a>
               </Link>
             </li>
-            <li className={`${currentRoute === "/about" ? "active" : ""}`}>
+            {/* <li className={`${currentRoute === "/about" ? "active" : ""}`}>
               <Link legacyBehavior href="/about">
                 <a>A empresa</a>
               </Link>
-            </li>
-            <li
+            </li> */}
+            {/* <li
               className={`menu-item-has-children ${
                 [
                   "/service",
@@ -371,7 +371,7 @@ function Header3() {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li className={`${currentRoute === "/faq" ? "active" : ""}`}>
               <Link legacyBehavior href="/faq">
                 <a>FAQ</a>
@@ -645,11 +645,11 @@ function Header3() {
                 </li>
               </ul>
             </li> */}
-            <li className={`${currentRoute === "/blog" ? "active" : ""}`}>
+            {/* <li className={`${currentRoute === "/blog" ? "active" : ""}`}>
               <Link legacyBehavior href="/blog">
                 <a>Blog</a>
               </Link>
-            </li>
+            </li> */}
             {/* <li
               className={`menu-item-has-children ${
                 [
