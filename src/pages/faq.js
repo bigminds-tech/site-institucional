@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
 import Head from "next/head";
-import { useState } from "react";
 
 function Faqpage() {
   const [result, setResult] = useState("");
