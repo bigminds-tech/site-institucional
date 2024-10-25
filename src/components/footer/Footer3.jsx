@@ -137,7 +137,7 @@ function Footer3() {
                     <Link legacyBehavior href="/work-with-us">
                       <a>Trabalhe Conosco</a>
                     </Link>
-                  </li>*/}
+                  </li>*
                 </ul>
               </div>
             </div>
