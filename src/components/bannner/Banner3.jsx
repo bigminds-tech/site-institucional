@@ -94,7 +94,7 @@ function Banner3() {
                   <Link legacyBehavior href="/contact">
                     <a className="primary-btn3">Fale Conosco</a>
                   </Link>
-                  <Link legacyBehavior href="/service">
+                  <Link legacyBehavior href="#">
                     <a className="primary-btn4">
                       <span>
                         <svg
@@ -161,7 +161,7 @@ function Banner3() {
                   <Link legacyBehavior href="/contact">
                     <a className="primary-btn3">Fale Conosco</a>
                   </Link>
-                  <Link legacyBehavior href="/service">
+                  <Link legacyBehavior href="#">
                     <a className="primary-btn4">
                       <span>
                         <svg
@@ -228,7 +228,7 @@ function Banner3() {
                   <Link legacyBehavior href="/contact">
                     <a className="primary-btn3">Fale Conosco</a>
                   </Link>
-                  <Link legacyBehavior href="/service">
+                  <Link legacyBehavior href="#">
                     <a className="primary-btn4">
                       <span>
                         <svg
